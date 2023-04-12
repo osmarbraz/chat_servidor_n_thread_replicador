@@ -38,7 +38,7 @@ public class Servidor implements Runnable, ConfiguracoesServidor {
         } catch (UnknownHostException uhe) {
             System.out.println("Conexao Terminada!");
         } catch (IOException ioe) {
-            System.out.println("ioe3=" + ioe);
+            System.out.println("Excecao: " + ioe.getMessage());
         }
         Scanner input = new Scanner(System.in);
         System.out.println("Pressione qualquer tecla para terminar. . .");

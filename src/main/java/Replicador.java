@@ -51,12 +51,12 @@ public class Replicador implements Runnable, ConfiguracoesServidor {
                 pw.println("Numero maximo de conexoes atingidas");
             }
         } catch (UnknownHostException uhe) {
-            System.out.println("Conexao Terminada!");
+            System.out.println("Conexao Terminada!");            
         } catch (IOException ioe) {
             if (servidor.qtdeClientes >= 0) {
                 servidor.qtdeClientes--;
             }
-            System.out.println("ioe=" + ioe);
+           System.out.println("Excecao: " + ioe.getMessage());
         }
     }
 }

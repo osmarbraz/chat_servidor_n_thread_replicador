@@ -3,4 +3,4 @@
 - Programa servidor de chat usando java socket de chat com N Threads.
 - Permite receber a conexão de até 10 clientes(configurável).
 - Replica as mensagens do servidor.
-- Use o repositório "chat_cliente_n_thread_replicador" como o programa cliente.
+- Use o repositório "socket_cliente_chat_n_thread_replicador" como o programa cliente.
